@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <title>welcome</title>
+    </head>
+    <body>
+        <div th:if="${not #lists.isEmpty(objects)}">
+            <div class="objectContainer" th:each="object: ${objects}">
+                <p th:text="${object.myString}">String</p>
+            </div>
+        </div>
+    </body>
+</html>
