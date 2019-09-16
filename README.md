@@ -7,6 +7,12 @@ in java-spring/ run `./gradlew build`<br/>
 then, run `java -jar build/libs/spring-boot-0.0.SNAPSHOT.jar`<br/>
 navigate to localhost:8080
 ## to start django application:
+## for first start:
+download anaconda
+create new environment with `conda create --name {desired name} python=3`<br/>
+activate environment<br/>
+install django: `pip install django`<br/>
+## for later starts
 in python-django/example run `python manage.py runserver`<br/>
 naviate to localhost:8000
 NOTE: must be run with python3. I used an anaconda environment. Ask me if you have any problems with this.
